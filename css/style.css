@@ -19,6 +19,8 @@ body {
     
     }
 
+
+    /* Hero section*/
     #hero{ 
         text-align: center;
     }
@@ -38,11 +40,16 @@ body {
     
     }
 
+   
+   /* Bio section*/
     #bio{
          text-align: center;
         
     }
 
+    
+    
+    /* Hobbie section*/
     #hobbies ul li {
         font-size: 1.5rem;
         font-weight: bold;
@@ -51,7 +58,7 @@ body {
         transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
       }
       
-      /* Different colors for each list item */
+    
       li:nth-child(1) { color: #ff5733; } 
       li:nth-child(2) { color: #f4fafe; } 
       li:nth-child(3) { color: #2ecc71; }
@@ -64,5 +71,19 @@ body {
         transform: scale(1.1);
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
       }
+
+    /* Gallery Section*/
+
+    #gallery {
+        border: 2px solid black;
+    }
+
+    #gallery img {
+        max-width: 100%;
+    }
+
+    #gallery figure {
+        text-align: center;
+    }
       
       
