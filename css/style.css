@@ -35,7 +35,7 @@ body {
 
     #hero, footer { 
 
-        color: #E58334;
+        color: #040404;
         background-color: #36E64A;
         padding: 10px;
         text-align: center;
@@ -181,9 +181,10 @@ body {
         }
         
         #lit div {
-            max-width: 100%;
-            columns: 20rem;
+          max-width: 100%;
+            columns: 15rem;
         }
+    }
 
     /* Large screen size */
 
