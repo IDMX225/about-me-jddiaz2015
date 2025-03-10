@@ -179,10 +179,17 @@ body {
         figure img {
             width: 100%;
         }
+
+        #lit {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+          }
         
         #lit div {
-          max-width: 100%;
-            columns: 15rem;
+            width: 100%; 
+            max-width: 100%; 
+            columns: 20rem;
         }
     }
 
