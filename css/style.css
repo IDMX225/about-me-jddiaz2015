@@ -263,6 +263,90 @@ body {
         
 /* Contact Form */
 
+
 #FormElements {
     display: grid;
+    row-gap: .75em;
 }
+
+#contact {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+    border: 1px solid #00bcd4;
+}
+
+fieldset {
+    border: 1px solid #00bcd4;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    padding: 1em;
+}
+
+legend {
+    background-color: #00bcd4;
+    color: #121212;
+    padding: .5em 1em;
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+}
+
+#contact input,
+#contact textarea,
+#contact select {
+    padding: .75em;
+    font-size: 1rem;
+    border: 1px solid #444;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    box-sizing: border-box;
+    transition: border-color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px #00bcd4;
+    outline: none;
+    background-color: #333;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 1rem 0;
+}
+
+#contact button {
+    background-color: #00bcd4;
+    color: #121212;
+    border: none;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    padding: .75em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+#contact button:hover {
+    background-color: #00e5ff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+}
+
+
