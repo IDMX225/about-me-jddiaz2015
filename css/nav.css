@@ -23,7 +23,14 @@ html{
    
    
    /* navbar */
-   
+   .navbar {
+    background-color: black;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
    
    
    
