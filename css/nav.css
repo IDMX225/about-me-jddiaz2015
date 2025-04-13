@@ -57,7 +57,7 @@ html{
    */
     .navbar-links a {
         color: azure;
-        background-attachment: black;
+        background-color: black;
         font-size: 1.5rem;
         padding: 1rem 1.25rem;
         letter-spacing: 2px;
@@ -65,8 +65,13 @@ html{
         display: inline-block;
     }   
    
-   
-   
+    .navbar-links a:hover,
+    .navbar-links a:focus {
+        color: black;
+        background-color: azure;
+        border-radius: 10px;
+        outline: none;
+    }
    
    /* 
    media query for non-mobile nav bar
