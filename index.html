@@ -29,8 +29,8 @@
                   <div class="navbar-links">
                      <ul>
                        <li><a href="#bio" class="navbar-links">Bio</a></li>
-                       <li><a href="#galley" class="navbar-links">Gallery</a></li>
-                       <li><a href="#blog" class="navbar-links">Blog</a></li>
+                       <li><a href="#gallery" class="navbar-links">Gallery</a></li>
+                       <li><a href="#lit" class="navbar-links">Blog</a></li>
                        <li><a href="#contact" class="navbar-links">Contact Me</a></li>
                      </ul>   
                   </div>
@@ -169,20 +169,16 @@
                                         <textarea id="message" name="message" rows="8"></textarea>
 
                                         <fieldset>
-                                                <legend>Would you like a reply?</legend>
-
-                                                <ul>
-                                                        <li>
-                                                                <input type="radio" id="message-yes" name="reply" value="Yes a reply please.">
-                                                                <label for="message-yes">Yes, a reply would be nice.</label>
-                                                        </li>
-                                                        <li>
-                                                                <input type="radio" id="message-no" name="reply" checked value="No reply please.">
-                                                                <label for="message-no">No, thanks.</label>
-                                                               
-                                                        </li>
-                                                </ul>
-                                        </fieldset>
+                                                <legend>Contact Information</legend>
+                                                
+                                                <div class="reply-options">
+                                                    <p style="font-size: 1.1rem; font-weight: bold; color: #00bcd4; margin-bottom: 0.75rem;">
+                                                        Would you like a reply?
+                                                    </p>
+                                                    <label><input type="radio" name="reply" value="yes"> Yes, I would like a reply</label>
+                                                    <label><input type="radio" name="reply" value="no"> No, I don’t need a reply</label>
+                                                </div>
+                                            </fieldset>
 
                                         <button type="submit">Send</button>
                                        
