@@ -8,6 +8,7 @@
                                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lexend+Deca:wght@600&display=swap" rel="stylesheet">
+                <link rel="icon" href="img/favicon-1.png" type="image/png">
 
                     <link href="css/style.css" rel="stylesheet">
                     <link href="css/nav.css" rel="stylesheet">
@@ -18,29 +19,28 @@
         <header>
                 <nav class="navbar">
                   <div class="logo">
-                    <img 
-                       src="img/logo-96X96.svg"
-                       class="logo-img"
-                       alt="Blue origami logo"
-                    />   
-                    <h1 class="logo-title"> Web Dev I - Online!</h1>
+                    <img src="img/mylogo.svg" width="200" class="logo-img" alt=" My logo" />
+                    <h1 class="logo-title">Web Dev I - Online!</h1>
                   </div>
-                  
+              
+                  <!-- Hamburger Menu Toggle -->
+                  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+                  <label for="nav-toggle" class="hamburger">&#9776;</label>
+              
                   <div class="navbar-links">
-                     <ul>
-                       <li><a href="#bio" class="navbar-links">Bio</a></li>
-                       <li><a href="#gallery" class="navbar-links">Gallery</a></li>
-                       <li><a href="#lit" class="navbar-links">Blog</a></li>
-                       <li><a href="#contact" class="navbar-links">Contact Me</a></li>
-                     </ul>   
+                    <ul>
+                      <li><a href="#bio">Bio</a></li>
+                      <li><a href="#gallery">Gallery</a></li>
+                      <li><a href="#hover-article">Blog</a></li>
+                      <li><a href="#contact">Contact Me</a></li>
+                    </ul>
                   </div>
                 </nav>
-        </header>
-
+              </header>
 <main>
 
         <section id="hero">
-                <img src="img/avataaars.png" alt="Avatar picture of me" >
+                <img src="img/myslef-photo2.jpg" alt="picture of me" > 
                 <div>
                 <p>Juan Diaz</p>
                 <p>Manville, NJ</p>
@@ -51,35 +51,26 @@
                 
                 <h2>Biography</h2>
                 <div>
-                    <p>
-                    I'm still not very sure in what field of the IT industry i want to work,
-                    but im ealready doing my research about the different career options out there.
-                    </p>
-                    I try to do my assigments at college, I feel that when I am home I tend
-                    to work on my personal projects, so I don't put the effort that I would like to my assigments.
-                    <p>
-                    In my free time I like to read; I like short stories and novels, I watch some movies,
-                    I spend time with my family. I like the outdoors, but during the winter I barely go outside
-                    even if the weather is not that bad.
-                    </p>
+                        <p>Hello! As you can see above, my name is Juan. I'm currently in my twenties and have just one more year left at RVCC. My experience at this college has been overwhelmingly positive—I've grown both academically and personally. I truly hope that the next college I transfer to will offer the same welcoming environment and sense of community that I've found here.</p> 
+                        <p>At the moment, I'm still exploring which specific area within the IT industry I want to pursue. The field is so broad and filled with opportunities—from software development and cybersecurity to data analytics and artificial intelligence. While I haven't made a final decision yet, I’ve started doing a lot of research to better understand the different career paths available and to figure out where my interests and strengths align best.</p> 
+                        <p>I try my best to complete most of my assignments while I'm on campus, because I’ve noticed that when I’m at home, I tend to shift my focus to personal projects. Although I’m passionate about those projects, they sometimes distract me from giving my full effort to college assignments. I’m working on finding a better balance so I can stay consistent with my academic responsibilities while still nurturing my creative side.</p> <p>In my free time, I enjoy reading—especially short stories and novels that spark my imagination or teach me something new. I also like watching movies, spending quality time with my family, and enjoying the outdoors. Being in nature helps me relax and reflect, although I have to admit that during the winter months, I don’t go outside as much as I’d like, even when the weather isn’t too bad.</p> 
+                        <p>Overall, I’m excited for the future and eager to keep learning, growing, and discovering where my path in technology will take me.</p>
                     <p><a href="https://www.youtube.com/watch?v=-bBzIgIaPS4">some jazz</a></p>
                 </div>
         </section>
         
         
         <section id="hobbies">
-                <h2>hobbies</h2>   
-
-                        <ul>
-                           <li>reading</li>
-                           <li>watching movies</li>  
-                           <li>outdoors</li>
-                           <li>hiking</li>  
-                           <li>cycling</li> 
-                           <li>talk to people</li>
-                        </ul>
-        
-        </section>
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>I enjoy reading, but when work gets in the way, I often listen to audiobooks instead.</li>
+                    <li>Watching movies is another activity I truly enjoy.</li>
+                    <li>Being outdoors makes me feel calm and at peace.</li>
+                    <li>When I go hiking, I combine two of my favorite things: cardio and nature.</li>
+                    <li>Cycling is a sport I really miss; I haven't been able to do it in recent years due to lack of time.</li>
+                    <li>I enjoy talking to people — it's important to recognize the value others bring to my life.</li>
+                </ul>
+            </section>
         
         <section id="gallery"> 
                 <h2>Photo Gallery</h2>
@@ -107,30 +98,140 @@
                 
         </section>
 
-        <article id="lit">
-                <h2>Pride and Prejudice from Jane Austen</h2>
-                <div>
+        <article id="hover-article">
+                <h2>Image Hover Effects with HTML & CSS</h2>
+                <p>
+                  Hover effects are a powerful way to enhance user experience on websites. When a user hovers their mouse over an image or element, the site responds visually — which makes it feel interactive and modern...
+                </p>
+              
+                <figure id="hover-demo">
+                  <img src="img/hover-demo.jpg" alt="Hover Image">
+                  <figcaption>
+                    <h4>Beautiful city</h4>
+                  </figcaption>
+                </figure>
+              
+                <p>
+                  This image uses a combination of transitions, transforms, and opacity to display a caption smoothly...
+                </p>
                 
-                        <p>It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters. “My dear Mr. Bennet,” said his lady to him one day, “have you heard that Netherfield Park is let at last?” Mr. Bennet replied that he had not. “But it is,” returned she; “for Mrs. Long has just been here, and she told me all about it.” Mr. Bennet made no answer. “Do you not want to know who has taken it?” cried his wife impatiently. “You want to tell me, and I have no objection to hearing it.”</p>
-    
-                        <p>This was invitation enough. “Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.” “What is his name?” “Bingley.” “Is he married or single?” “Oh! single, my dear, to be sure! A single man of large fortune; four or five thousand a year. What a fine thing for our girls!” “How so? how can it affect them?” “My dear Mr. Bennet,” replied his wife, “how can you be so tiresome! You must know that I am thinking of his marrying one of them.”</p>
                 
-                        <p>“Is that his design in settling here?” “Design! Nonsense, how can you talk so! But it is very likely that he may fall in love with one of them, and therefore you must visit him as soon as he comes.” “I see no occasion for that. You and the girls may go, or you may send them by themselves, which perhaps will be still better; for as you are as handsome as any of them, Mr. Bingley might like you the best of the party.” “My dear, you flatter me. I certainly have had my share of beauty, but I do not pretend to be anything extraordinary now. When a woman has five grown-up daughters, she ought to give over thinking of her own beauty.”</p>
-                
-                        <p>“In such cases, a woman has not often much beauty to think of.” “But, my dear, you must indeed go and see Mr. Bingley when he comes into the neighbourhood.” “It is more than I engage for, I assure you.” “But consider your daughters. Only think what an establishment it would be for all of them. Sir William and Lady Lucas are determined to go, merely on that account, for in general you know they visit no new comers. Indeed you must go, for it will be impossible for us to visit him if you do not.”</p>
-                
-                        <p>You are over-scrupulous, surely. I dare say Mr. Bingley will be very glad to see you; and I will send a few lines by you to assure him of my hearty consent to his marrying whichever he chooses of the girls; though I must throw in a good word for my little Lizzy.”</p>
-                
-                        <p>“I desire you will do no such thing. Lizzy is not a bit better than the others; and I am sure she is not half so handsome as Jane, nor half so good-humoured as Lydia. But you are always giving her the preference.” They have now gone so far as to arrange a meeting for Mr. Bingley’s coming to the ball at the Meryton assembly, where the Bennet family will present themselves to him. The invitation made by Mrs. Bennet is extended in the hope of drawing a positive response, albeit the family has their own reasons for hoping things will progress in an ideal direction.</p>
-                
-                        <p>As soon as the ball began, Mrs. Bennet was eager to introduce her daughters to Mr. Bingley, so that her plan could unfold without delay. Each of the girls, in turn, presented themselves with their charm, hoping to make the best impression. It was to no surprise that Mrs. Bennet showed great enthusiasm, as she believed her daughters to be in competition with others. Yet she remained determined to secure the best possible match for them, with Mr. Bingley as the perfect prospect.</p>
-                
-                        <p>Meanwhile, as Mr. Bingley observed the situation unfold, he took a particular liking to the eldest daughter, Jane Bennet. Mrs. Bennet, sensing an opportunity, took it upon herself to foster the budding connection. She was both eager and anxious for the future, knowing full well that the arrangement would greatly improve the family’s situation. Unbeknownst to her, Mr. Bingley’s intentions were yet unclear, but the groundwork for the romantic entanglements had been set in motion, and the hopes of the Bennet family were in full bloom.</p>
-            
-                       
-                </div>
+                <h3> How can we make this effect on HTML and CSS?</h3>
+                <div class="effect-description">
+                        <div class="image-description">
+                          <p>
+                            The <code>&lt;figure id="hover-demo"&gt;</code> element wraps the image and its caption. 
+                            The <code>&lt;img&gt;</code> tag shows the image, and the 
+                            <code>&lt;figcaption&gt;</code> with a <code>&lt;h4&gt;</code> contains the text that 
+                            appears on hover. CSS makes the caption fade in over the image smoothly.
+                          </p>
+                  <div class="image-description">
+                          <p>
+                             The <code>#hover-demo</code> styles the <code>&lt;figure&gt;</code> container by setting 
+                             it to <code>position: relative</code> for internal absolute positioning, <code>overflow: hidden</code> 
+                             to contain any zoom effects, <code>max-width: 400px</code> and <code>width: 100%</code> for responsive
+                             sizing, <code>margin: 2rem auto</code> to center it with vertical spacing, and <code>border-radius: 10px</code> 
+                             to round its corners.</p>
+
+                          </p>
+                          <img src="img/css-screenshot-1.png"HTML Screenshot showing the image transformation effect">
+                        </div>
+                      </div>
+
+                      <div class="effect-description">
+                        <div class="image-description">
+                          <p>
+                              The <code>#hover-demo img</code> styles the image by setting it to <code>display: block</code>, 
+                                making it responsive with <code>width: 100%</code> and <code>height: auto</code>, removing <code>
+                                border-radius</code>, 
+                                <code>margin</code>, and <code>padding</code> for a clean appearance.
+                         </p>
+                          <img src="img/css-screenshot-2.png"HTML Screenshot showing the image transformation effect>
+                        </div>
+                      </div>
+
+                      <div class="effect-description">
+                        <div class="image-description">
+                          <p>
+                                The <code>#hover-demo figcaption</code> is positioned absolutely within the <code>&lt;figure&gt;</code> element, 
+                                covering the entire image with <code>width: 100%</code> and <code>height: 100%</code>. The <code>background: rgba(0, 0, 0, 0.5)</code> 
+                                creates a dark overlay, and the content is centered both horizontally and vertically using <code>display: flex</code>, 
+                                <code>justify-content: center</code>, and <code>align-items: center</code>. The caption starts invisible with 
+                                <code>opacity: 0</code> and fades in on hover, thanks to <code>transition: opacity 0.8s ease</code>. Padding, margin, 
+                                and border-radius are set to 0 to remove extra space and make the caption fit perfectly over the image, while 
+                                <code>pointer-events: none</code> ensures that the caption doesn't interfere with interactions on the image.</p>
+                                        
+                         </p>
+                          <img src="img/css-screenshot-3.png"HTML Screenshot showing the image transformation effect>
+                        </div>
+                      </div>
+
+                      <div class="effect-description">
+                        <div class="image-description">
+                          <p>
+                                 The <code>#hover-demo:hover img</code> rule zooms in the image by scaling it to 1.05 times its original size 
+                                 when the user hovers over the <code>&lt;figure&gt;</code> element. The <code>#hover-demo:hover figcaption</code> 
+                                 rule makes the caption visible with a smooth fade-in effect by setting its opacity to 1 during hover. 
+                                 Additionally, the <code>#hover-demo figcaption h4</code> rule changes the text color of the <code>&lt;h4&gt;</code> 
+                                 inside the <code>&lt;figcaption&gt;</code> to white, ensuring good contrast against the dark overlay background.
+                         </p>
+                          <img src="img/css-screenshot-4.png"HTML Screenshot showing the image transformation effect>
+                        </div>
+                      </div>
+
+        
         </article>
 
+        <section id="moving-dot-demo">
+                <h2>Animated Moving Dot</h2>
+                <div class="moving-dot"></div>
+                <h3>HOW DOES THE DOT MOVE?</h3>
+                <p>
+                    The <code>&lt;section id="moving-dot-demo"&gt;</code> groups the animated dot and its title so they can be styled 
+                    together. Inside it, the <code>&lt;h2&gt;</code> adds a heading that labels the effect, and the <code>&lt;div 
+                    class="moving-dot"&gt;</code> creates the dot itself. This dot is connected to CSS animations through its 
+                    class name, which lets it move smoothly across the screen without any interaction like hovering.
+                </p>
+                <img src="img/css-screenshot1.1.png" alt="moving dot example">
+                
+                <p>
+                    The <code>#moving-dot-demo</code> selector styles the entire section where the animated dot appears. It sets
+                    a soft background color with <code>background-color: #fef6e4</code> to make the animation stand out, centers 
+                    all content using <code>text-align: center</code>, and adds generous spacing around the content with <code>padding: 
+                    3rem</code> for a clean, balanced layout.
+                </p>
+                <img src="img/css-screenshot1.2.png" alt="moving dot example">
+            
+                <p>
+                    The <code>.moving-dot</code> class styles the animated dot by giving it a <code>width</code> and 
+                    <code>height</code> of 20px to form a small circle. The <code>background-color: #8bd3dd</code> gives it a 
+                    soft teal color, and <code>border-radius: 50%</code> makes the shape perfectly round. The dot is centered on 
+                    the page using <code>margin: 2rem auto</code>, and the <code>position: relative</code> allows it to move within 
+                    its container. Finally, the <code>animation: moveDot 2s infinite ease-in-out</code> applies a smooth 
+                    back-and-forth motion using a keyframe animation named <code>moveDot</code> that loops endlessly.
+                </p>
+                <img src="img/css-screenshot1.3.png" alt="moving dot example">
+                
+                <p>
+                    The <code>@keyframes moveDot</code> rule defines the animation for the moving dot. At <code>0%</code>, 
+                    the dot is positioned at the leftmost point (<code>left: 0</code>). At <code>50%</code>, the dot moves 100px 
+                    to the right (<code>left: 100px</code>), and by <code>100%</code>, it returns to its original position
+                    (<code>left: 0</code>). The animation moves the dot back and forth horizontally, creating a smooth motion 
+                    that loops infinitely.
+                </p>
+                <img src="img/css-screenshot1.4.png" alt="moving dot example">
+            </section>                 <img src="img/html-screenshot.png" alt="HTML Screenshot showing the figure element">
+                        </div>
+                      </div>
+                
+                      <div class="effect-description">
+               
+            
+
+
+         </section>
+              
+        
         <section id="video">
                 <h2>A Short Video</h2>
                 <div class="video-container">
